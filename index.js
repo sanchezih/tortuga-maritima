@@ -19,7 +19,7 @@ app.listen(port, () => {
 
 // endpoints
 app.get("/healthz", function callback(request, response) {
-    response.send('ok');
+    response.send('bien');
 });
 
 app.post("/sendMessage", function callback(req, res) {
